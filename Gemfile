@@ -37,6 +37,9 @@ gem 'unicorn'
 # Use Penguin as middleware
 gem 'penguin', git: "https://github.com/zkusznir/penguin.git"
 
+# Use Dalli as middleware store
+gem 'dalli'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
