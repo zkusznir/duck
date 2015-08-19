@@ -23,6 +23,6 @@ module Duck
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
-    config.middleware.use Penguin::Middleware
+    config.middleware.use Penguin::Middleware, { limit: 20, reset_in: 3600 }
   end
 end
