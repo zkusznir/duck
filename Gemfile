@@ -34,6 +34,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 gem 'unicorn'
 
+# Use Penguin as middleware
+gem 'penguin', git: "https://github.com/zkusznir/penguin.git"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
