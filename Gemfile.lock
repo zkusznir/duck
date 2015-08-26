@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/zkusznir/penguin.git
-  revision: 51f8dcafdc3e7b9d17c83a09422edef68ab1f8d2
+  revision: cfb227518da1c31b4d43062a26552970bd23167d
   specs:
     penguin (0.1.0)
 
